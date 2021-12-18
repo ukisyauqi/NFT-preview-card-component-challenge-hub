@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern -->
+
+    <div>
+      <div class="card">
+        <img
+          src="./image-equilibrium.jpg"
+          alt="image equilibrium"
+          width="250px"
+          id="img-equilibrium"
+        />
+
+        <h3>Equilibrium #3429</h3>
+
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="flex-container">
+          <div>
+            <img
+              src="./icon-ethereum.svg"
+              alt="iconn icon-ethereum"
+              class="inline"
+              id="img-ethereum"
+            />
+            <label for="img-ethereum" id="eth"
+              ><span class="cyan transform">0.041 ETH</span></label
+            >
+          </div>
+          <div>
+            <img
+              src="./icon-clock.svg"
+              alt="iconn icon-ethereum"
+              class="inline"
+              id="img-jam"
+            />
+            <label for="img-jam"
+              ><span class="transform">3 days left</span></label
+            >
+          </div>
+        </div>
+
+        <hr />
+
+        <img
+          src="./image-avatar.png"
+          alt="img avatar"
+          id="img-avatar"
+          width="25px"
+        />
+        <label for="img-avatar"
+          ><span class="transform">Creation of <span class="cyan">Jules Wyvern</span></span>
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
